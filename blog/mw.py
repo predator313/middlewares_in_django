@@ -1,4 +1,4 @@
-def my_middlewears(get_response):
+def my_middlewear(get_response):
     print('we initialize the middle wears')
     def my_fn(request):
         print('this will execute before view')
