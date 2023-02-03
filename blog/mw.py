@@ -3,6 +3,6 @@ def my_middlewear(get_response):
     def my_fn(request):
         print('this will execute before view')
         response=get_response(request)
-        print('this is alfter views')
+        print('this is after views')
         return response
     return my_fn
