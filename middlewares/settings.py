@@ -48,7 +48,10 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'blog.mw.my_middlewear'
+    # 'blog.mw.my_middlewear'
+    'blog.mw_many.Brother_middleware',
+    'blog.mw_many.Father_middleware',
+    'blog.mw_many.Mother_middleware',
 ]
 
 ROOT_URLCONF = 'middlewares.urls'
